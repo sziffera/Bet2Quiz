@@ -11,12 +11,24 @@
         android:id="@+id/startGameButton"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginStart="30dp"
-        android:layout_marginEnd="30dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
         android:layout_marginBottom="24dp"
         android:background="#FF7043"
-        android:text="Play"
+        android:text="Play - WebView test"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/startWithChrome"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="21dp"
+        android:text="Chrome Engine test"
+        app:layout_constraintBottom_toTopOf="@+id/startGameButton"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>

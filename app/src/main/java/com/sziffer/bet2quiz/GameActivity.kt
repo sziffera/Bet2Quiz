@@ -24,7 +24,7 @@ class GameActivity : AppCompatActivity() {
             databaseEnabled = true
             javaScriptEnabled = true
             domStorageEnabled = true
-            blockNetworkLoads = true
+            //blockNetworkLoads = true //!kills the app, don't use it!
         }
         gameWebView.loadUrl("https://quizarena.bet2quiz.com")
     }
